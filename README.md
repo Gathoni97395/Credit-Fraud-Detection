@@ -16,29 +16,33 @@ The dataset used in this project is the [Credit Card Fraud Detection dataset](ht
 - `Class`: The target variable (0 for legitimate, 1 for fraudulent).
 
 ### Software
-The project was done with python, jupyter notebooks.
+Python
+Interface: Jupyter Notebooks.
 
 ### Data ceaning and validation
 Data cleaning was conductecd by handling mising values.
-Dta validation was conducted by checking for accuracy of the dataset.
-l
+Data validation was conducted by checking for accuracy of the dataset.
+
 ### Data modelling and processing
  Data Preprocessing was done by handling missing values, normalization, and encoding categorical features.
 The data was then split into training and test sets.
 Model Selection:
     Several machine learning models were tested, including Logistic Regression and Random Forest
+    
     The models were trained and evaluated based on accuracy, precision, recall, and F1-score.
-### Model Evaluation:
-   - The model was evaluated using a confusion matrix to calculate the precision, recall, and F1-score, as fraudulent transactions are rare and require special attention to false positives and false negatives.
+### Model Evaluation & refinement:
+   -Due to class imbalance the focus was on precsion & recall rather than acccuracy.
+   - The model was evaluated using a confusion matrix to calculate the precision, recall, and F1-score, as fraudulent transactions  require special attention  due to cases of false positives and false negatives.
 
 ## Results
 
 The model's performance is evaluated using the following metrics:
 
-- **Accuracy**: The percentage of correct predictions.
+- **Accuracy**: The percentage of correct predictions
 - **Precision**: The percentage of predicted fraudulent transactions that are actually fraudulent.
 - **Recall**: The percentage of actual fraudulent transactions that were correctly identified.
 - **F1-Score**: The harmonic mean of precision and recall.
+- **Confusion Matrix**:
 
 Based on the chosen model and hyperparameters, the results are summarized as follows:
 
