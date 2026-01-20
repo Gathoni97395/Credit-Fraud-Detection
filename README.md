@@ -2,7 +2,8 @@
 # Credit Card Fraud Detection Using Machine Learning and Transactional Data
 ### Overview
 Credit card fraud is a growing concern, and detecting fraudulent transactions efficiently is crucial for maintaining the security and trust of financial institutions and customers. In this project, we use machine learning algorithms to detect patterns in real time using transaction data that indicate potential fraud.
-
+---
+## Leveraging Machine Learning to Strengthen Fraud Prevention
 This project builds and evaluates an end-to-end fraud detection pipeline using transactional data, with emphasis on feature engineering, class imbalance, and model evaluation beyond accuracy. 
 Rather than treating fraud detection as a standalone model, the system is designed as a scalable decision-making process, highlighting trade-offs between precision, recall, and operational risk. The goal is to demonstrate how machine learning supports reliable, high-volume financial systems.
 
