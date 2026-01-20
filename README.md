@@ -18,10 +18,10 @@ The dataset used in this project is the [Credit Card Fraud Detection dataset](ht
 ### Software
 The project was done with python, jupyter notebooks.
 
-### data cleaning and validation
+### Data ceaning and validation
 Data cleaning was conductecd by handling mising values.
 Dta validation was conducted by checking for accuracy of the dataset.
-
+l
 ### Data modelling and processing
  Data Preprocessing was done by handling missing values, normalization, and encoding categorical features.
 The data was then split into training and test sets.
